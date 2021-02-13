@@ -4,6 +4,8 @@ import { Route, Switch, withRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
 import Series from "./pages/Series/Series";
+import Loading from "./pages/Loading/Loading";
+import Error from "./pages/Error/Error";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
@@ -22,6 +24,8 @@ function App({ location }) {
           <Route path="/" exact component={Home} />
           <Route path="/movies" exact component={Movies} />
           <Route path="/series" exact component={Series} />
+          <Route path="/loading" exact component={Loading} />
+          <Route path="/error" exact component={Error} />
         </Switch>
         <div className="margin-div-right" />
       </div>
