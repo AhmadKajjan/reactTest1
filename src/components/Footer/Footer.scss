@@ -33,3 +33,27 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.slash {
+  display: block;
+}
+
+@media only screen and (min-device-width: 0px) and(max-device-width:600px) {
+  .list {
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+    li {
+      font-size: small;
+      padding-right: 0px;
+    }
+  }
+  .copyright {
+    font-size: x-small;
+  }
+  .social-and-stores {
+    flex-direction: column;
+  }
+  .slash {
+    display: none;
+  }
+}

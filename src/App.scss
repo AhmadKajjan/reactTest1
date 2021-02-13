@@ -1,11 +1,14 @@
 .app {
   height: 100vh;
+  max-width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   font-family: "Raleway", sans-serif;
 }
+
 .main-app {
+  width: 100%;
   margin-top: 150px;
   align-self: flex-start;
   flex-grow: 1;
@@ -15,11 +18,11 @@
 }
 
 .footer-compenent {
-  justify-content: flex-end;
+  justify-self: flex-end;
 }
 .margin-div-left {
-  margin-left: 5rem;
+  margin-left: 10%;
 }
 .margin-div-right {
-  margin-right: 5rem;
+  margin-right: 10%;
 }

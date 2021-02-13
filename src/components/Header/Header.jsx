@@ -3,7 +3,7 @@ import React from "react";
 import "./Header.scss";
 const Header = ({ pageName }) => {
   return (
-    <div className="header">
+    <nav className="header">
       <div className="main-header-content">
         <div className="margin-div-left" />
         <p className="header-title">
@@ -33,7 +33,7 @@ const Header = ({ pageName }) => {
         <div className="margin-div-left" />
         <h4 className="second-header-title">{pageName}</h4>
       </div>
-    </div>
+    </nav>
   );
 };
 export default Header;

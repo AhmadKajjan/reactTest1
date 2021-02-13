@@ -25,7 +25,7 @@ function App({ location }) {
         </Switch>
         <div className="margin-div-right" />
       </div>
-      <Footer className="footer-compenent" />
+      <Footer />
     </div>
   );
 }
